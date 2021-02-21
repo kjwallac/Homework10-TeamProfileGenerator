@@ -1,0 +1,29 @@
+{
+  "name": "Homework10-TeamProfileGenerator",
+  "version": "1.0.0",
+  "description": "Repository for Homework 10 - Team Profile Generator",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "inquirer": "^7.3.3",
+    "jest": "^26.6.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kjwallac/Homework10-TeamProfileGenerator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kjwallac/Homework10-TeamProfileGenerator/issues"
+  },
+  "homepage": "https://github.com/kjwallac/Homework10-TeamProfileGenerator#readme"
+}
