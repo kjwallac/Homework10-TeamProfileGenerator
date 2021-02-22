@@ -1,8 +1,10 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
+const genTeam = require("./lib/genTeam");
 
 async function run() {
   let addNext = true;
+  let records = [];
   while (addNext) {
     const { role } = await inquirer.prompt([
       {
@@ -93,7 +95,7 @@ async function run() {
 
     const data = await inquirer.prompt(employeeQuestions);
     data.role = role;
-    let records = [data];
+    records = [data];
     const filename = "./data/team.json";
     if (fs.existsSync(filename)) {
       const json = fs.readFileSync(filename, "utf-8");
@@ -110,6 +112,7 @@ async function run() {
     ]);
     addNext = response.addNext;
   }
+  await genTeam(records);
 }
 
 run();
