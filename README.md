@@ -6,8 +6,6 @@ AS A manager
 I WANT to generate a webpage that displays my team's basic info  
 SO THAT I have quick access to their emails and GitHub profiles  
 
-![Team Roster](./TeamRoster.png)
-
 ## Application criteria / Instructions
 Using a command-line application that accepts user input  
 WHEN the user is prompted for their team members and theif information  
@@ -28,4 +26,6 @@ THEN the user is questioned whether to add another record
    - If YES, the user is again prompted what type of employee to add  
    - If NO, the application exists and the HTML is generated  
 
+[Team Profile Generator Screencast](https://drive.google.com/file/d/1Jj98blu_KdbFevZwWGWqtZ6haaMOYG2_/view)
 
+![Team Roster](./TeamRoster.png)

@@ -1,7 +1,7 @@
 const fs = require("fs");
-const Engineer = require("./Engineer");
-const Manager = require("./Manager");
-const Intern = require("./Intern");
+const Engineer = require("../lib/Engineer");
+const Manager = require("../lib/Manager");
+const Intern = require("../lib/Intern");
 
 const pageTemplate = `<!DOCTYPE html>
 <html lang="en">
